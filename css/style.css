@@ -697,3 +697,38 @@ footer .page-logo {
     font-size: 26px;
     line-height: 31px;
 }
+
+.page-logo {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.footer-logo span {
+    font-family: var(--font-opensans);
+    font-size: 11px;
+    line-height: 15px;
+    color: var(--text-color-lightgrey);
+}
+
+.facebook-icon {
+    background-image: url("../assets/Facebook.svg");
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+.twitter-icon {
+    background-image: url("../assets/Twitter.svg");
+    width: 24px;
+    height: 24px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+}
